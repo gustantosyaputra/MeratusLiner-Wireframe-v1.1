@@ -13,7 +13,7 @@
     <link href="https://kendo.cdn.telerik.com/2022.3.913/styles/kendo.default-ocean-blue.min.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
     <script src="https://kendo.cdn.telerik.com/2022.3.913/js/kendo.all.min.js"></script>
-
+    
     <title>New Liner - Long Term Schedule</title>
 
 
@@ -220,8 +220,8 @@
                                             <th scope="col" rowspan="2">IDKID <br>ETA</th>
                                             <th scope="col" rowspan="2">IDPWG <br>ETA</th>
                                             <th scope="col" rowspan="2">IDJKT <br>ETA</th>
-                                            <th scope="col" rowspan="2">REMARKS</th>
                                             <th scope="col" rowspan="2">TRV/LENGTH</th>
+                                            <th scope="col" rowspan="2">REMARKS</th>
                                         </tr>
                                     </thead>
                                     <tbody>
