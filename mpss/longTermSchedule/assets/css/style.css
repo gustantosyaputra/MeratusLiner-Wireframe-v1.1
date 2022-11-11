@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+@media screen {}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    zoom: 100%;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    background: #FFFFFF;
+    /* White/white2 */
+
+    border-bottom: 1px solid #FFFFFF;
+    /* Dropdown */
+
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+    font-size: 16px;
+    background: #FFFFFF;
+    /* Drop_1 */
+
+    box-shadow: 0px 20px 50px rgba(220, 224, 249, 0.5);
+}
+
+.nav-left a {
+    margin: 6px;
+}
+
+.list input {
+    width: 130px;
+}
+
+.page-title {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.breadcrumb .active {
+    color: #405DC5;
+}
+
+.action-btn a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-left a {
+    color: black;
+}
+
+.btn-control {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.add-btn {
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+
+    /* Auto layout */
+
+    text-align: center;
+    align-items: center;
+    padding: 7px 28px;
+    gap: 4px;
+
+    width: 129px;
+    height: 36px;
+
+    /* Primary/Normal */
+    border: none;
+    background: #405DC5;
+    border-radius: 4px;
+}
+
+.export-btn {
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+
+    /* Auto layout */
+    text-align: center;
+    align-items: center;
+    padding: 7px 21px;
+    gap: 4px;
+
+    width: 129px;
+    height: 36px;
+
+    /* Primary/Normal */
+    border: none;
+    background: #405DC5;
+    border-radius: 4px;
+}
+
+.add-btn:hover {
+    color: whitesmoke;
+    background: #6079d3;
+}
+
+.export-btn:hover {
+    color: whitesmoke;
+    background: #6079d3;
+}
+
+
+.global-search input {
+    width: 153px;
+    height: 36px;
+    padding: 5px 35px;
+    gap: 4px;
+    background: #FFFFFF;
+    background-image: url(../Vector.svg);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    /* Gray / 2 */
+
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+}
+
+.global-search btn {
+    width: 153px;
+    height: 36px;
+    padding: 5px 35px;
+    gap: 4px;
+    background: #405DC5;
+    background-image: url(../Vector.svg);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    color: #FFFFFF;
+    /* Gray / 2 */
+
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+}
+
+.table {
+    position: relative;
+    background: #FFFFFF;
+    /* elevation/01 */
+    border-bottom: rgba(0, 0, 0, 0);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    /* Light/text */
+
+    color: #2E2E2E;
+
+}
+
+.table thead {
+    height: 10px;
+}
+
+.table .tr-1 {
+    background-color: #405DC5;
+    /* Light/border */
+    border-radius: 8px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table .tr-1 th {
+    color: #F3F3F3;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table input {
+    padding: 6px 30px;
+    gap: 12px;
+
+    width: 114px;
+    border: none;
+    /* Light/background */
+
+    background: #ffffff00;
+}
+
+.table .tr-2 th {
+    background-image: url(../Vector.svg);
+    background-repeat: no-repeat;
+    background-position: 13px;
+}
+
+.tr-2 td select {
+    padding: 6px 0px;
+    gap: 12px;
+    width: 123px;
+    border: none;
+    background: #FFFFFF;
+}
+
+.first-th {
+    border-radius: 8px 0px 0px 0px;
+}
+
+.last-th {
+    color: white;
+    border-radius: 0px 8px 0px 0px;
+}
+
+/* DATA GRID DEVEXTREME CSS */
+
+#gridContainer {
+    height: 440px;
+}
+
+.master-detail-caption {
+    padding: 0 0 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dx-datagrid-headers {
+    color: #ffffff !important;
+    background-color: #405DC5 !important;
+}
+
+.dx-datagrid-rowsview .dx-row > td, .dx-datagrid-rowsview .dx-row > tr > td {
+    background-color: #464646 !important;
+}
+.dx-datagrid-rowsview .dx-row, .dx-datagrid-rowsview .dx-row {
+    background-color: #464646 !important;
+}
+
+@media only screen and (min-width: 992px) {
+    #gridContainer {
+        height: 440px;
+    }
+}
